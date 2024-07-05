@@ -1,0 +1,47 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>👨‍🔬 ¡Hola, Ingeniero!</h1>
+			<p>
+				¿Alguna vez te has preguntado cómo funcionan las comunicaciones
+				electrónicas modernas? Estos sistemas, que son esenciales en
+				nuestra vida diaria, dependen de formas de onda estables y
+				repetitivas, tanto senoidales como no senoidales. Pero eso no es
+				todo, a menudo necesitan más de una frecuencia y estas
+				frecuencias deben estar sincronizadas entre sí.
+			</p>
+			<p>
+				En este blog, vamos a explorar los componentes clave de un
+				sistema electrónico de comunicaciones:
+			</p>
+			<ul>
+				<li>Generación de señal</li>
+				<li>Sincronización de señal</li>
+				<li>Sincronización de frecuencia</li>
+				<li>Síntesis de frecuencia</li>
+			</ul>
+			<p>
+				Además, te presentaremos el funcionamiento básico de los
+				osciladores, los lazos de fase cerrada y los sintetizadores de
+				frecuencia.
+			</p>
+			<p>
+				¿Estás listo para descubrir cómo se usan para generar señales?
+				¡Acompáñanos en esta fascinante aventura!
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
