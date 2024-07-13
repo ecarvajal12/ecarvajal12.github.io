@@ -1,8 +1,8 @@
 ---
-title: 'Osciladores sintonizados'
+title: 'Osciladores Sintonizados'
 description: 'Vibrando entre dos mundos'
-pubDate: 'Jun 27 2024'
-heroImage: '/blog-placeholder-2.jpg'
+pubDate: 'Jun 20 2024'
+heroImage: '/blog-placeholder-8.jpg'
 ---
 
 Los osciladores *LC* son circuitos osciladores que usan circuitos tanque *LC* para establecer la frecuencia. El funcionamiento de un circuito tanque implica intercambio de energía entre cinética y potencial.La figura a continuación:

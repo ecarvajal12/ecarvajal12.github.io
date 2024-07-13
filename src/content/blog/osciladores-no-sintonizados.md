@@ -1,8 +1,8 @@
 ---
-title: 'Osciladores no sintonizados'
+title: 'Osciladores No Sintonizados'
 description: 'Vibrando entre dos mundos'
-pubDate: 'Jun 23 2024'
-heroImage: '/blog-placeholder-2.jpg'
+pubDate: 'Jun 17 2024'
+heroImage: '/blog-placeholder-7.jpg'
 ---
 
 El oscilador de puente de Wien es un oscilador RC no sintonizado de corrimiento de fase que utiliza retroalimentación tanto positiva como negativa. Es relativamente estable, de baja frecuencia y se sintoniza con facilidad. Se utiliza comúnmente en generadores de señal para producir frecuencias en el rango de 5 Hz a 1 MHz. Hewlett Packard utilizó este circuito en su diseño original de generador de señales.

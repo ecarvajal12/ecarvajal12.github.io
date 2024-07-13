@@ -1,28 +1,29 @@
 ---
 title: 'Osciladores'
 description: 'Vibrando entre dos mundos'
-pubDate: 'Jun 18 2024'
-heroImage: '/blog-placeholder-3.jpg'
+pubDate: 'Jun 15 2024'
+heroImage: '/blog-placeholder-6.jpg'
 ---
 
-¿Sabías que oscilar significa fluctuar entre dos estados? Un oscilador, entonces, es un dispositivo que produce estas oscilaciones, por consiguiente, oscilar es vibrar o cambiar, generando una forma de onda repetitiva. En el mundo de las comunicaciones electrónicas, los osciladores son esenciales, siendo utilizados en fuentes de portadora de alta frecuencia, fuentes piloto, relojes y circuitos de sincronización.
-
-Un oscilador en aplicaciones electrónicas produce oscilaciones eléctricas, cambios repetitivos de voltaje o corriente en una forma de onda. Si un oscilador es autosostenido, estos cambios son continuos y repetitivos. Los osciladores no autosostenidos, por otro lado, requieren una señal externa de entrada para producir un cambio en la forma de onda de salida.
-
-En esencia, un oscilador convierte un voltaje de entrada de corriente continua en un voltaje de salida de corriente alterna. La forma de la onda de salida puede variar, pero siempre se repite a intervalos periódicos. ¿Interesante, verdad?
-
-#### Osciladores retroalimentados
-
-Un oscilador retroalimentado es un amplificador con un lazo que permite que la energía fluya desde la salida y regrese a la entrada. Estos osciladores autosostenidos generan una señal de salida de corriente alterna, parte de la cual se regresa a la entrada para ser amplificada. Este proceso se repite, creando un ciclo regenerativo.
-
-Para que un circuito retroalimentado sostenga oscilaciones, debe cumplir con el criterio de Barkhausen: la ganancia neta de voltaje alrededor del lazo de retroalimentación debe ser igual o mayor que la unidad, y el desplazamiento neto de fase alrededor del lazo debe ser un múltiplo entero positivo de 360°.
-
-El oscilador retroalimentado requiere cuatro elementos: amplificación, retroalimentación positiva, componentes que determinan la frecuencia y una fuente de energía eléctrica.
-
-La amplificación se logra con al menos un dispositivo activo capaz de amplificar voltaje. La retroalimentación positiva asegura que la señal de salida regrese a la entrada con la fase y amplitud correctas para sostener las oscilaciones. Los componentes que determinan la frecuencia permiten ajustar o cambiar la frecuencia de operación. Finalmente, una fuente de energía eléctrica alimenta el oscilador.
-
-
-![oscilador](/2-3-b.png)
+<div style="text-align: justify;">
+    <p>
+        ¿Sabías que oscilar significa fluctuar entre dos estados? Un oscilador, entonces, es un dispositivo que produce estas oscilaciones, por consiguiente, oscilar es vibrar o cambiar, generando una forma de onda repetitiva. En el mundo de las comunicaciones electrónicas, los osciladores son esenciales, siendo utilizados en fuentes de portadora de alta frecuencia, fuentes piloto, relojes y circuitos de sincronización.
+    </p>
+    <p>
+        Un oscilador en aplicaciones electrónicas produce oscilaciones eléctricas, cambios repetitivos de voltaje o corriente en una forma de onda. Si un oscilador es autosostenido, estos cambios son continuos y repetitivos. Los osciladores no autosostenidos, por otro lado, requieren una señal externa de entrada para producir un cambio en la forma de onda de salida.
+    </p>
+    <p>
+        En esencia, un oscilador convierte un voltaje de entrada de corriente continua en un voltaje de salida de corriente alterna. La forma de la onda de salida puede variar, pero siempre se repite a intervalos periódicos. ¿Interesante, verdad?
+    </p>
+    <h5>Osciladores retroalimentados</h5>
+    <p>Un oscilador retroalimentado es un amplificador con un lazo que permite que la energía fluya desde la salida y regrese a la entrada. Estos osciladores autosostenidos generan una señal de salida de corriente alterna, parte de la cual se regresa a la entrada para ser amplificada. Este proceso se repite, creando un ciclo regenerativo.</p>
+    <p>Para que un circuito retroalimentado sostenga oscilaciones, debe cumplir con el criterio de Barkhausen: la ganancia neta de voltaje alrededor del lazo de retroalimentación debe ser igual o mayor que la unidad, y el desplazamiento neto de fase alrededor del lazo debe ser un múltiplo entero positivo de 360°.</p>
+    <p>El oscilador retroalimentado requiere cuatro elementos: amplificación, retroalimentación positiva, componentes que determinan la frecuencia y una fuente de energía eléctrica.</p>
+    <p>La amplificación se logra con al menos un dispositivo activo capaz de amplificar voltaje. La retroalimentación positiva asegura que la señal de salida regrese a la entrada con la fase y amplitud correctas para sostener las oscilaciones. Los componentes que determinan la frecuencia permiten ajustar o cambiar la frecuencia de operación. Finalmente, una fuente de energía eléctrica alimenta el oscilador.</p>
+    <div style="display: flex; justify-content: center;">
+        <img src="/2-3-b.png"/>
+    </div>
+</div>
 
 
 - **Entrada (V<sub>1</sub>)**: esta es la señal que se introduce en el circuito.
